@@ -1,0 +1,6 @@
+function countWords(str){
+  var strs=new Array();
+  strs=str.split(" ");
+  alert(strs.length);
+}
+countWords('hello world');
