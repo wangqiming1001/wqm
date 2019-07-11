@@ -1,0 +1,11 @@
+function reverseString(message){
+  var arr;
+　var str1="";
+  if(message.length>0){
+　　　for(var i=message.length-1;i>=0;i--){
+　　　　　str1+=message.charAt(i);//
+　　　}
+　　　document.write(str1);　　　　
+	}
+}
+reverseString('hello');
