@@ -1,0 +1,4 @@
+function IsReverse(text){
+    return text.split('').reverse().join('');
+}
+console.log(IsReverse("hello"));
